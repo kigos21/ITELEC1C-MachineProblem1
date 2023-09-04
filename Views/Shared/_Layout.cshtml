@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@ViewData["Title"] - MachineProblem1</title>
+  <link rel="stylesheet" href="~/css/bootstrap.min.css">
+  @*
+  This is the view-specific styles within each View.
+  This helps in maintainability... well sort of...
+  It is like the "CSS Modules" of .NET
+  *@
+  @RenderSection("Styles", required: false)
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+  @RenderBody()
+
+  <footer>
+
+  </footer>
+
+  @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

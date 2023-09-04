@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "DOnC/X7Wi64USqa8o/d/pozq5S/4ZlfxsvInlaUFOpo=",
+  "Source": "MachineProblem1",
+  "BasePath": "_content/MachineProblem1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MachineProblem1/wwwroot",
+      "Source": "MachineProblem1",
+      "ContentRoot": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/",
+      "BasePath": "_content/MachineProblem1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/scopedcss/bundle/MachineProblem1.styles.css",
+      "SourceId": "MachineProblem1",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "_content/MachineProblem1",
+      "RelativePath": "MachineProblem1.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/scopedcss/bundle/MachineProblem1.styles.css"
+    },
+    {
+      "Identity": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/scopedcss/projectbundle/MachineProblem1.bundle.scp.css",
+      "SourceId": "MachineProblem1",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "_content/MachineProblem1",
+      "RelativePath": "MachineProblem1.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/scopedcss/projectbundle/MachineProblem1.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/css/bootstrap.min.css",
+      "SourceId": "MachineProblem1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/",
+      "BasePath": "_content/MachineProblem1",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/bootstrap.min.css"
+    },
+    {
+      "Identity": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/favicon.ico",
+      "SourceId": "MachineProblem1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/",
+      "BasePath": "_content/MachineProblem1",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    }
+  ]
+}
