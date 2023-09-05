@@ -24,3 +24,5 @@
 /home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/ref/MachineProblem1.dll
 /home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/MachineProblem1.pdb
 /home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/MachineProblem1.genruntimeconfig.cache
+/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/bin/Debug/net6.0/package-lock.json
+/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/bin/Debug/net6.0/package.json

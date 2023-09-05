@@ -5,13 +5,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@ViewData["Title"] - MachineProblem1</title>
-  <link rel="stylesheet" href="~/css/bootstrap.min.css">
+
+  @* <link rel="stylesheet" href="~/css/bootstrap.min.css"> *@
+
   @*
   This is the view-specific styles within each View.
   This helps in maintainability... well sort of...
   It is like the "CSS Modules" of .NET
   *@
   @RenderSection("Styles", required: false)
+
+  @*
+  I think i figured a way to use TailwindCSS...
+  *@
+  <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
 </head>
 
 <body>
