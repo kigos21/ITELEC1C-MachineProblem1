@@ -1,13 +1,176 @@
 ﻿@{
   ViewData["Title"] = "Home Page";
+
+  Random random = new Random();
+  random.Next(2);
+
+  string FirstName = "Wally";
+  string LastName = "Bayola";
+  string Birthday = "05/03/1972";
+  bool IsTenured = (random.Next(2) == 1 ? true : false);
+  int SalaryPerHour = 40;
+  string Email = "wallybayola@eat.bulaga";
+  int age;
+
+  // To work with date and time, it must be in DateTime instance
+  // then, Year attribute could be accessed
+  DateTime parsedBirthday = DateTime.Parse(Birthday);
+  DateTime today = DateTime.Today;
+  age = today.Year - parsedBirthday.Year;
+  if (parsedBirthday.Date > today.AddYears(-age))
+    age--;
+
+  int Wage = SalaryPerHour * 8;
+  int Salary = Wage * 20;
+  if (IsTenured)
+    Salary += 500;
 }
 
-<div>
-  <h1>Home</h1>
-</div>
+<h1 class="text-[1.75rem] font-bold mb-[2rem]">Machine Problem</h1>
+
+<section class="flex flex-col gap-[1.5rem] mb-[2rem]">
+  <div>
+    <p>@FirstName @LastName is @age years old.</p>
+  </div>
+
+  <div>
+    <p>Email: @Email</p>
+    <p>Domain: @Email.Split("@")[1]</p>
+    <p>Username: @Email.Split("@")[0]</p>
+  </div>
+
+  <div>
+    <p>Name: @FirstName @LastName</p>
+    <p>Email: @Email</p>
+    <p>Status: @(IsTenured ? "Permanent" : "Probationary")</p>
+    <p>Daily Salary: $@Wage</p>
+    <p>Monthly Salary: $@Salary</p>
+  </div>
+</section>
+
+@{
+
+
+  string Name = $"{FirstName} {LastName}";
+  int PrelimGrade = random.Next(70, 101);
+  int FinalGrade = random.Next(70, 101);
+  int SemestralGrade = (PrelimGrade + FinalGrade) / 2;
+  double TransmutedGrade;
+
+  if (SemestralGrade >= 96)
+  {
+    TransmutedGrade = 1.00;
+  }
+  else if (SemestralGrade >= 94)
+  {
+    TransmutedGrade = 1.25;
+  }
+  else if (SemestralGrade >= 92)
+  {
+    TransmutedGrade = 1.50;
+  }
+  else if (SemestralGrade >= 89)
+  {
+    TransmutedGrade = 1.75;
+  }
+  else if (SemestralGrade >= 87)
+  {
+    TransmutedGrade = 2.00;
+  }
+  else if (SemestralGrade >= 84)
+  {
+    TransmutedGrade = 2.25;
+  }
+  else if (SemestralGrade >= 82)
+  {
+    TransmutedGrade = 2.5;
+  }
+  else if (SemestralGrade >= 79)
+  {
+    TransmutedGrade = 2.75;
+  }
+  else if (SemestralGrade >= 75)
+  {
+    TransmutedGrade = 3.00;
+  }
+  else if (SemestralGrade >= 0)
+  {
+    TransmutedGrade = 5.00;
+  }
+  else
+  {
+    TransmutedGrade = 0;
+  }
+}
+
+<section class="flex flex-col gap-[1.5rem]">
+  <h2 class="text-[1.25rem] font-bold">Grades</h2>
+
+  <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+      <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <tr>
+          <th scope="col" class="px-6 py-3">
+            Property
+          </th>
+          <th scope="col" class="px-6 py-3">
+            Value
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+            Name
+          </th>
+          <td class="px-6 py-4">
+            @Name
+          </td>
+        </tr>
+
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+            Prelim
+          </th>
+          <td class="px-6 py-4">
+            @PrelimGrade
+          </td>
+        </tr>
+
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+            Final
+          </th>
+          <td class="px-6 py-4">
+            @FinalGrade
+          </td>
+        </tr>
+
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+            Semestral Grade
+          </th>
+          <td class="px-6 py-4">
+            @SemestralGrade
+          </td>
+        </tr>
+
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+            Transmuted Grade
+          </th>
+          <td class="px-6 py-4">
+            @TransmutedGrade
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
 @section Styles {
   <style>
-
+    /* define custom styles here to be rendered in head */
   </style>
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PiB3o4Omvq1KI0qAUqHIB+RGE4lm8cN54wP1rFvzo34=",
+  "Hash": "X2oMnq96nc6gp/bjWZxdCa9q05pqxVtfTgKnQ7IWp9k=",
   "Source": "MachineProblem1",
   "BasePath": "_content/MachineProblem1",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/css/styles.css",
+      "SourceId": "MachineProblem1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/",
+      "BasePath": "_content/MachineProblem1",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
     },
     {
       "Identity": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/favicon.ico",

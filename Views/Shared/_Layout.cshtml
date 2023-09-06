@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>@ViewData["Title"] - MachineProblem1</title>
+  <title>@ViewData["Title"]</title>
 
+  @* This is the Bootstrap library with a theme from Bootswatch *@
   @* <link rel="stylesheet" href="~/css/bootstrap.min.css"> *@
 
   @*
@@ -15,23 +16,39 @@
   *@
   @RenderSection("Styles", required: false)
 
-  @*
-  I think i figured a way to use TailwindCSS...
-  *@
+  @* I think i figured a way to use TailwindCSS... *@
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+
+  <style>
+    body * {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
 </head>
 
-<body>
-  <header>
-
+<body class="bg-[#1e1e1e] text-[#dadada] flex flex-col min-h-screen">
+  <header class="nav navbar">
+    <div class="flex justify-between px-[7%] py-[1.5rem] border-b border-neutral-700">
+      <h1 class="text-[2rem] font-bold">Jd.</h1>
+      <nav class="flex items-center">
+        <ul class="flex gap-[1rem] items-center md:gap-[2rem] lg:gap-[3rem]">
+          <li><a href="/" class="hover:text-[#ffffff]">Home</a></li>
+          <li><a href="/About" class="hover:text-[#ffffff]">About</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <body>
+  <main class="px-[15%] py-[4rem] flex-grow">
     @RenderBody()
-  </body>
+  </main>
 
-  <footer>
-
+  <footer class="border-t border-neutral-700">
+    <div class="px-[7%] py-[1.5rem]">&copy; All rights reserved.</div>
   </footer>
 
   @await RenderSectionAsync("Scripts", required: false)
