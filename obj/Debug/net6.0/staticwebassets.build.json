@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X2oMnq96nc6gp/bjWZxdCa9q05pqxVtfTgKnQ7IWp9k=",
+  "Hash": "9wx/WxCsmlzcWa/cdhK6Pbh5628PWhujKesEZr4DA9k=",
   "Source": "MachineProblem1",
   "BasePath": "_content/MachineProblem1",
   "Mode": "Default",
@@ -49,23 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/obj/Debug/net6.0/scopedcss/projectbundle/MachineProblem1.bundle.scp.css"
-    },
-    {
-      "Identity": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/css/bootstrap.min.css",
-      "SourceId": "MachineProblem1",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/",
-      "BasePath": "_content/MachineProblem1",
-      "RelativePath": "css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap.min.css"
     },
     {
       "Identity": "/home/jd/Documents/3-YR-1-SEM/ITELEC1C/MachineProblem1/wwwroot/css/site.css",
